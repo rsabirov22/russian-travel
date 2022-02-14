@@ -1,0 +1,17 @@
+.cover {
+  color: #FFFFFF;
+  min-height: 740px;
+  background: url(../../images/baikal__background.jpg) 0 0 no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.cover:hover .cover__overlay {
+  opacity: 0.8;
+}
