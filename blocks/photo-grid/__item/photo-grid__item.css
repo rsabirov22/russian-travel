@@ -3,3 +3,13 @@
   width: 100%;
   height: 100%;
 }
+
+@media screen and (max-width: 767px) {
+  .photo-grid__item {
+    margin-bottom: 8px;
+  }
+
+  .photo-grid__item:last-child {
+    margin-bottom: 0;
+  }
+}

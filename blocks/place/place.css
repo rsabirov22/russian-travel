@@ -1,7 +1,7 @@
 .place {
   margin-bottom: 80px;
   display: grid;
-  grid-template-columns:  minmax(min-content, 47%)  minmax(min-content, max-content);
+  grid-template-columns:  47%  minmax(min-content, max-content);
   grid-gap: 43px 40px;
   grid-template-areas: 
     'title website'
@@ -11,4 +11,27 @@
 
 .place:last-child {
   margin-bottom: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .place {
+    grid-template-columns:  48%  minmax(min-content, max-content);
+    grid-gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place {
+    grid-gap: 48px 28px;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .place {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    grid-gap: 0;
+  }
 }

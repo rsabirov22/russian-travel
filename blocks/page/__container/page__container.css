@@ -6,6 +6,12 @@
   margin: 0 auto;
 }
 
+@media screen and (max-width: 767px) {
+  .page__container {
+    padding-top: 16px;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .page__container {
     padding-left: 48px;

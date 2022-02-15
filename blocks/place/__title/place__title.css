@@ -5,4 +5,22 @@
   font-size: 72px;
   line-height: 1.1;
   margin: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1023px) {
+  .place__title {
+    font-size: 42px;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .place__title {
+    box-sizing: border-box;
+    font-size: 32px;
+    line-height: 1;
+    margin-bottom: 32px;
+    order: 1;
+    padding: 0 16px;
+  }
 }

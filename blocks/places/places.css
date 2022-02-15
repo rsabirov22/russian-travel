@@ -1,4 +1,23 @@
 .places {
   color: #FFFFFF;
-  width: calc(100% - 100px*2);
+  width: 100%;
+}
+
+@media screen and (min-width: 1280px){
+  .places {
+    width: calc(100% - 100px*2);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .places {
+    box-sizing: border-box;
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places {
+    padding: 0;
+  }
 }

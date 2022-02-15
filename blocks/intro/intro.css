@@ -1,4 +1,24 @@
 .intro {
   color: #FFFFFF;
-  width: calc(100% - 100px*2);
+  width: 100%;
+}
+
+@media screen and (min-width: 1280px){
+  .intro {
+    width: calc(100% - 100px*2);
+  }
+}
+
+@media screen and (max-width: 1023px){
+  .intro {
+    box-sizing: border-box;
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .intro {
+    box-sizing: border-box;
+    padding: 0 16px;
+  }
 }
