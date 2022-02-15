@@ -8,6 +8,6 @@
 
 При разработке использовались технологии grid, flex, адаптивной верстки.
 
-**ссылка на GitHub Pages**
+**Ссылка на GitHub Pages**
 
 https://rsabirov22.github.io/russian-travel/index.html

@@ -5,8 +5,7 @@
   grid-gap: 43px 40px;
   grid-template-areas: 
     'title website'
-    'image paragraph'
-  ;
+    'image paragraph';
 }
 
 .place:last-child {
